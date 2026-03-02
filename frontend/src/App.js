@@ -6,7 +6,7 @@ import ProtectedRoute from "./auth/ProtectedRoute";
 
 function App() {
   return (
-    <BrowserRouter>
+    
       <Routes>
         <Route path="/" element={<Login />} />
         <Route path="/register" element={<Register />} />
@@ -19,7 +19,7 @@ function App() {
           }
         />
       </Routes>
-    </BrowserRouter>
+    
   );
 }
 
